@@ -8,13 +8,19 @@
 
 ## ManetaNevera
 
+### V2.0
+
+* OpenSCAD [model](./ManetaNevera/ManetaNevera.scad) (can use Customizer to parametrize it).
+
+![OpenSCAD (defaults)](./ManetaNevera/imgs/ManetaNevera-V2.0-model-defaults.png  "OpenSCAD model (default)")
+
+![OpenSCAD (customizer)](./ManetaNevera/imgs/ManetaNevera-V2.0-model-customizer.png  "OpenSCAD model (customizer)")
 ### V1.1
 
 ![OpenSCAD](./ManetaNevera/imgs/ManetaNevera-V1.1-model.png  "OpenSCAD model")
 
 ![CuraSlicer](./ManetaNevera/imgs/ManetaNevera-V1.1-slicer.png  "Cura slicer ")
 
-* OpenSCAD [model](./ManetaNevera/ManetaNevera.scad).
 * STL [code](./ManetaNevera/ManetaNevera_V1.1.stl).
 * Ender-3 (Normal) [g-code](./ManetaNevera/CE3_ManetaNevera_V1.1_Draft_Cubicsub.gcode). Slicer: Cura 4.1.0.
 	- Print Settings : Draft - 0.2mm.
