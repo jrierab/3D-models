@@ -1,10 +1,39 @@
 # 3D-models
 
+[https://github.com/jrierab/3D-models](https://github.com/jrierab/3D-models)
+
 **CAT**: Models 3D per a impressores 3D casolanes.
+
+* [Caixa LM2596 amb Display](#lm2596-with-display)
+
+* [Maneta nevera](#manetanevera)
 
 **EN**: 3D models for 3D printers.
 
-[https://github.com/jrierab/3D-models](https://github.com/jrierab/3D-models)
+* [Case for LM2596 with Display](#lm2596-with-display)
+
+* [Refrigerator door handle replacement](#manetanevera)
+
+
+## LM2596 with Display
+
+* OpenSCAD [model](./LM2596_wDisplay/LM2596_wDisplay.scad) (can use Customizer to parametrize it).
+
+![OpenSCAD (defaults)](./LM2596_wDisplay/imgs/LM2596_wDisplay-V1.0-model-defaults.png  "OpenSCAD model (default)")
+
+![OpenSCAD (customizer)](./LM2596_wDisplay/imgs/LM2596_wDisplay-V1.0-model-customizer.png  "OpenSCAD model (customizer)")
+
+![CuraSlicer](./LM2596_wDisplay/imgs/LM2596_wDisplay-V1.0-slicer.png  "Cura slicer ")
+
+* STL [code](./LM2596_wDisplay/LM2596_wDisplay.stl).
+* Ender-3 (Normal) [g-code](./LM2596_wDisplay/CE3_LM2596_wDisplay_Draft_Cubicsub.gcode). Slicer: Cura 4.1.0.
+	- Print Settings : Draft - 0.2mm.
+	- Infill pattern : Cubic Subdivision.
+	- Infill Density : 10%.
+	- Plate adhesion : None.
+	- Printing Time : 1:48h aprox.
+
+![Real](./LM2596_wDisplay/imgs/LM2596_wDisplay-V1.0-real.jpg  "Real")
 
 ## ManetaNevera
 
@@ -15,6 +44,7 @@
 ![OpenSCAD (defaults)](./ManetaNevera/imgs/ManetaNevera-V2.0-model-defaults.png  "OpenSCAD model (default)")
 
 ![OpenSCAD (customizer)](./ManetaNevera/imgs/ManetaNevera-V2.0-model-customizer.png  "OpenSCAD model (customizer)")
+
 ### V1.1
 
 ![OpenSCAD](./ManetaNevera/imgs/ManetaNevera-V1.1-model.png  "OpenSCAD model")
