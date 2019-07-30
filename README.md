@@ -6,13 +6,40 @@
 
 * [Caixa LM2596 amb Display](#lm2596-with-display)
 
+* [Caixa LM2596 amb Display lateral](#lm2596-with-lateral-display)
+
 * [Maneta nevera](#manetanevera)
 
 **EN**: 3D models for 3D printers.
 
 * [Case for LM2596 with Display](#lm2596-with-display)
 
+* [Case for LM2596 with lateral Display](#lm2596-with-lateral-display)
+
 * [Refrigerator door handle replacement](#manetanevera)
+
+
+
+## LM2596 with lateral Display
+
+* OpenSCAD [model](./LM2596_wLateralDisplay/LM2596_wLateralDisplay.scad) (can use Customizer to parametrize it).
+
+![OpenSCAD (defaults)](./LM2596_wLateralDisplay/imgs/LM2596_wLateralDisplay-V1.0-model-defaults.png  "OpenSCAD model (default)")
+
+![OpenSCAD (customizer)](./LM2596_wLateralDisplay/imgs/LM2596_wLateralDisplay-V1.0-model-customizer.png  "OpenSCAD model (customizer)")
+
+![CuraSlicer](./LM2596_wLateralDisplay/imgs/LM2596_wLateralDisplay-V1.0-slicer.png  "Cura slicer ")
+
+* STL [code](./LM2596_wLateralDisplay/LM2596_wLateralDisplay.stl).
+* Ender-3 (Normal) [g-code](./LM2596_wLateralDisplay/CE3_LM2596_wLateralDisplay_Draft_Cubicsub.gcode). Slicer: Cura 4.1.0.
+	- Print Settings : Draft - 0.2mm.
+	- Infill pattern : Cubic Subdivision.
+	- Infill Density : 10%.
+	- Plate adhesion : None.
+	- Printing Time : 1:20h aprox.
+
+![Real](./LM2596_wLateralDisplay/imgs/LM2596_wLateralDisplay-V1.0-real.jpg  "Real")
+
 
 
 ## LM2596 with Display
@@ -34,6 +61,8 @@
 	- Printing Time : 1:48h aprox.
 
 ![Real](./LM2596_wDisplay/imgs/LM2596_wDisplay-V1.0-real.jpg  "Real")
+
+
 
 ## ManetaNevera
 
