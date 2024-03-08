@@ -15,7 +15,7 @@ Hole_Separation = 156;      // [50:300]
 // Width of the refrigerator handle (mm)
 Handle_Width = 18;          // [10:30]
 // Height of the refrigerator handle (mm)
-Handle_Height = 22;         // [10:40]
+Handle_Height = 24;         // [10:40]
 // Overhang (extension) on handle ends (mm)
 Handle_Overhang = 20;       // [0:50]
 // Height of the top/base horizontal bars (mm)
@@ -61,11 +61,11 @@ module refrigerator_handle() {
     // Top bar with holes
     difference() {
         // Top bar
-        translate([HWC, HLC, Handle_Height - Bar_Height])
+        translate([HWC, HLC, Handle_Height - Bar_Height - 0.2])
             roundedcube_simple([Handle_Width, Handle_Length, Bar_Height], false, Rounded_Corner_Radius);
 
         // Top holes
-        translate([Base_Width/2, Base_Length/2, Handle_Height - Bar_Height])
+        translate([Base_Width/2, Base_Length/2, Handle_Height - Bar_Height - 0.2])
             for (n =[0:Num_Top_Holes - 1])
                 translate([0, n*THS, 0])
                     cylinder(h = Bar_Height, r1 = Top_Hole_Radius, r2 = Top_Hole_Radius);

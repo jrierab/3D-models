@@ -74,6 +74,15 @@
 
 ![OpenSCAD (customizer)](./ManetaNevera/imgs/ManetaNevera-V2.0-model-customizer.png  "OpenSCAD model (customizer)")
 
+### V1.2
+
+![OrcaSlicer](./ManetaNevera/imgs/ManetaNevera-V1.2-OrcaSlicer.png  "OrcaSlicer")
+
+* STL [code](./ManetaNevera/ManetaNevera_V1.2.stl).
+* Ender-3 V3 KE (**Strong**) version [g-code](./ManetaNevera/CE3v3KE_ManetaNevera_V1.2_PLA_1h9m.gcode). Slicer: Orca Slicer 1.9.1.
+	- Infill Density : 50%.
+	- Printing Time : 69m aprox.
+
 ### V1.1
 
 ![OpenSCAD](./ManetaNevera/imgs/ManetaNevera-V1.1-model.png  "OpenSCAD model")
